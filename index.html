@@ -1,40 +1,82 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>TheEditHub</title>
+<title>Portfolio</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<style>
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(135deg, #14001f, #4b0082);
+    color: white;
+}
+
+/* MAIN */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+/* HELLO TEXT */
+.small-text {
+    color: #aaa;
+    font-size: 18px;
+}
+
+/* BIG TEXT */
+.big-text {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* IMAGE */
+.hero-img {
+    width: 180px;
+    border-radius: 12px;
+    margin: 30px 0;
+}
+
+/* BUTTON */
+.btn {
+    padding: 12px 30px;
+    background: #ff00cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    box-shadow: 0 0 20px #ff00cc;
+    font-weight: bold;
+}
+
+</style>
+
 </head>
 
-<body style="background:#f5f5f5; color:#111; text-align:center; font-family:sans-serif; padding:20px;">
+<body>
 
-<h1 style="font-size:35px;">TheEditHub</h1>
+<div class="container">
 
-<img src="IMG_20260322_140521_370.webp" 
-style="width:120px; height:120px; object-fit:cover; border-radius:50%; margin-top:10px;">
+<div class="small-text">Hello</div>
 
-<p style="font-size:18px; color:gray;">
-I am a Professional Video Editor
-</p>
-
-<hr style="width:60%; margin:20px auto;">
-
-<h2>My Services</h2>
-
-<div style="line-height:2;">
-<p>✔ YouTube Video Editing</p>
-<p>✔ Instagram Reels</p>
-<p>✔ Gaming Edits</p>
+<div class="big-text">
+Editing Videos<br>
+that Boost Sales 🚀
 </div>
 
-<br>
+<!-- YOUR IMAGE -->
+<img src="IMG_20260322_140521_370.webp" class="hero-img">
 
-<a href="https://wa.me/919183209879">
-<button style="padding:12px 25px; font-size:16px; background:black; color:white; border:none; border-radius:8px;">
-Contact Me
-</button>
-</a>
+<a href="https://wa.me/919183209879" class="btn">Contact Me</a>
+
+</div>
 
 </body>
 </html>
